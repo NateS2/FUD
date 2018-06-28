@@ -7,21 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4306FBB82093E8420090682A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4306FBB72093E8420090682A /* README.md */; };
+		4306FBBA2093F4C90090682A /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4306FBB92093F4C90090682A /* NetworkManager.swift */; };
+		4306FBBC2093FE7E0090682A /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4306FBBB2093FE7E0090682A /* BaseViewController.swift */; };
+		4325B8382069994300DE0C2C /* ShuffleExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4325B8372069994300DE0C2C /* ShuffleExtensions.swift */; };
+		4325B83A20699B5600DE0C2C /* LoadingOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4325B83920699B5600DE0C2C /* LoadingOverlay.swift */; };
+		439E66DA2096C762003827B4 /* RealmDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439E66D92096C762003827B4 /* RealmDataModel.swift */; };
+		439E66DC2096D194003827B4 /* FavoriteRestaurantsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439E66DB2096D194003827B4 /* FavoriteRestaurantsTableViewController.swift */; };
 		43C405032062F63C00A4F51B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C405022062F63C00A4F51B /* AppDelegate.swift */; };
-		43C405052062F63C00A4F51B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C405042062F63C00A4F51B /* ViewController.swift */; };
+		43C405052062F63C00A4F51B /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C405042062F63C00A4F51B /* IntroViewController.swift */; };
 		43C405082062F63C00A4F51B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43C405062062F63C00A4F51B /* Main.storyboard */; };
 		43C4050A2062F63C00A4F51B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43C405092062F63C00A4F51B /* Assets.xcassets */; };
 		43C4050D2062F63C00A4F51B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43C4050B2062F63C00A4F51B /* LaunchScreen.storyboard */; };
+		43C4051520632A7300A4F51B /* FoodPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C4051420632A7300A4F51B /* FoodPickerViewController.swift */; };
+		43C4051720643E6500A4F51B /* GoogleAPIDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C4051620643E6500A4F51B /* GoogleAPIDataModel.swift */; };
+		43C4051920643EF300A4F51B /* GoogleAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C4051820643EF300A4F51B /* GoogleAPIClient.swift */; };
+		43C4051B206477BA00A4F51B /* CustomKolodaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C4051A206477BA00A4F51B /* CustomKolodaView.swift */; };
+		43C4051D206493D000A4F51B /* CustomKolodaView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43C4051C206493D000A4F51B /* CustomKolodaView.xib */; };
+		43C4051F2066E2CD00A4F51B /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C4051E2066E2CD00A4F51B /* SettingsViewController.swift */; };
+		FF2E6B2C386A154B8C82BFCD /* Pods_FU_D.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D84E9CE841E2D2812532C5A5 /* Pods_FU_D.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4306FBB72093E8420090682A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4306FBB92093F4C90090682A /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		4306FBBB2093FE7E0090682A /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		4325B8372069994300DE0C2C /* ShuffleExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShuffleExtensions.swift; sourceTree = "<group>"; };
+		4325B83920699B5600DE0C2C /* LoadingOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingOverlay.swift; sourceTree = "<group>"; };
+		439E66D92096C762003827B4 /* RealmDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmDataModel.swift; sourceTree = "<group>"; };
+		439E66DB2096D194003827B4 /* FavoriteRestaurantsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteRestaurantsTableViewController.swift; sourceTree = "<group>"; };
 		43C404FF2062F63C00A4F51B /* FÜD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FÜD.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		43C405022062F63C00A4F51B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		43C405042062F63C00A4F51B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		43C405042062F63C00A4F51B /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
 		43C405072062F63C00A4F51B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		43C405092062F63C00A4F51B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43C4050C2062F63C00A4F51B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		43C4050E2062F63C00A4F51B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43C4051420632A7300A4F51B /* FoodPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodPickerViewController.swift; sourceTree = "<group>"; };
+		43C4051620643E6500A4F51B /* GoogleAPIDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleAPIDataModel.swift; sourceTree = "<group>"; };
+		43C4051820643EF300A4F51B /* GoogleAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleAPIClient.swift; sourceTree = "<group>"; };
+		43C4051A206477BA00A4F51B /* CustomKolodaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomKolodaView.swift; sourceTree = "<group>"; };
+		43C4051C206493D000A4F51B /* CustomKolodaView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomKolodaView.xib; sourceTree = "<group>"; };
+		43C4051E2066E2CD00A4F51B /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		85B160027BD3548F24121F51 /* Pods-FÜD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FÜD.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FÜD/Pods-FÜD.debug.xcconfig"; sourceTree = "<group>"; };
+		AEAC2AAC43A66FEC8DC5CE87 /* Pods-FÜD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FÜD.release.xcconfig"; path = "Pods/Target Support Files/Pods-FÜD/Pods-FÜD.release.xcconfig"; sourceTree = "<group>"; };
+		D84E9CE841E2D2812532C5A5 /* Pods_FU_D.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FU_D.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF2E6B2C386A154B8C82BFCD /* Pods_FU_D.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +71,8 @@
 			children = (
 				43C405012062F63C00A4F51B /* FÜD */,
 				43C405002062F63C00A4F51B /* Products */,
+				FEBE078EADE8E4E747AEC387 /* Pods */,
+				4A2F40069AB354805CA114DC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +88,43 @@
 			isa = PBXGroup;
 			children = (
 				43C405022062F63C00A4F51B /* AppDelegate.swift */,
-				43C405042062F63C00A4F51B /* ViewController.swift */,
+				43C405042062F63C00A4F51B /* IntroViewController.swift */,
+				4306FBB92093F4C90090682A /* NetworkManager.swift */,
+				43C4051420632A7300A4F51B /* FoodPickerViewController.swift */,
+				4306FBBB2093FE7E0090682A /* BaseViewController.swift */,
+				4325B83920699B5600DE0C2C /* LoadingOverlay.swift */,
+				4306FBB72093E8420090682A /* README.md */,
+				43C4051620643E6500A4F51B /* GoogleAPIDataModel.swift */,
+				439E66D92096C762003827B4 /* RealmDataModel.swift */,
+				43C4051820643EF300A4F51B /* GoogleAPIClient.swift */,
 				43C405062062F63C00A4F51B /* Main.storyboard */,
+				439E66DB2096D194003827B4 /* FavoriteRestaurantsTableViewController.swift */,
+				43C4051E2066E2CD00A4F51B /* SettingsViewController.swift */,
+				4325B8372069994300DE0C2C /* ShuffleExtensions.swift */,
+				43C4051A206477BA00A4F51B /* CustomKolodaView.swift */,
+				43C4051C206493D000A4F51B /* CustomKolodaView.xib */,
 				43C405092062F63C00A4F51B /* Assets.xcassets */,
 				43C4050B2062F63C00A4F51B /* LaunchScreen.storyboard */,
 				43C4050E2062F63C00A4F51B /* Info.plist */,
 			);
 			path = "FÜD";
+			sourceTree = "<group>";
+		};
+		4A2F40069AB354805CA114DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D84E9CE841E2D2812532C5A5 /* Pods_FU_D.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FEBE078EADE8E4E747AEC387 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				85B160027BD3548F24121F51 /* Pods-FÜD.debug.xcconfig */,
+				AEAC2AAC43A66FEC8DC5CE87 /* Pods-FÜD.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +134,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 43C405112062F63C00A4F51B /* Build configuration list for PBXNativeTarget "FÜD" */;
 			buildPhases = (
+				0A99B484C47EC402E8ACEBF5 /* [CP] Check Pods Manifest.lock */,
 				43C404FB2062F63C00A4F51B /* Sources */,
 				43C404FC2062F63C00A4F51B /* Frameworks */,
 				43C404FD2062F63C00A4F51B /* Resources */,
+				BCED7D577CA7640FB24D638D /* [CP] Embed Pods Frameworks */,
+				7D80B9EB71EC821C9528E536 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,6 +190,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				43C4050D2062F63C00A4F51B /* LaunchScreen.storyboard in Resources */,
+				43C4051D206493D000A4F51B /* CustomKolodaView.xib in Resources */,
+				4306FBB82093E8420090682A /* README.md in Resources */,
 				43C4050A2062F63C00A4F51B /* Assets.xcassets in Resources */,
 				43C405082062F63C00A4F51B /* Main.storyboard in Resources */,
 			);
@@ -131,13 +199,95 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0A99B484C47EC402E8ACEBF5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FÜD-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D80B9EB71EC821C9528E536 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FÜD/Pods-FÜD-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Resources/GooglePlacePicker.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlacePicker.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FÜD/Pods-FÜD-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BCED7D577CA7640FB24D638D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FÜD/Pods-FÜD-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Cosmos/Cosmos.framework",
+				"${BUILT_PRODUCTS_DIR}/Koloda/Koloda.framework",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/pop/pop.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cosmos.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Koloda.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/pop.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FÜD/Pods-FÜD-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		43C404FB2062F63C00A4F51B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43C405052062F63C00A4F51B /* ViewController.swift in Sources */,
+				43C4051920643EF300A4F51B /* GoogleAPIClient.swift in Sources */,
+				43C405052062F63C00A4F51B /* IntroViewController.swift in Sources */,
+				4306FBBC2093FE7E0090682A /* BaseViewController.swift in Sources */,
+				439E66DC2096D194003827B4 /* FavoriteRestaurantsTableViewController.swift in Sources */,
+				4306FBBA2093F4C90090682A /* NetworkManager.swift in Sources */,
+				43C4051F2066E2CD00A4F51B /* SettingsViewController.swift in Sources */,
+				43C4051720643E6500A4F51B /* GoogleAPIDataModel.swift in Sources */,
+				43C4051B206477BA00A4F51B /* CustomKolodaView.swift in Sources */,
+				439E66DA2096C762003827B4 /* RealmDataModel.swift in Sources */,
+				43C4051520632A7300A4F51B /* FoodPickerViewController.swift in Sources */,
 				43C405032062F63C00A4F51B /* AppDelegate.swift in Sources */,
+				4325B8382069994300DE0C2C /* ShuffleExtensions.swift in Sources */,
+				4325B83A20699B5600DE0C2C /* LoadingOverlay.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,9 +422,11 @@
 		};
 		43C405122062F63C00A4F51B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85B160027BD3548F24121F51 /* Pods-FÜD.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7HS3932M4X;
 				INFOPLIST_FILE = "FÜD/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nathan.FU-D";
@@ -286,9 +438,11 @@
 		};
 		43C405132062F63C00A4F51B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEAC2AAC43A66FEC8DC5CE87 /* Pods-FÜD.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7HS3932M4X;
 				INFOPLIST_FILE = "FÜD/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nathan.FU-D";
